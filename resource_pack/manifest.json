@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "k1dd0 Resource Pack",
+    "description": "k1dd0 Minecraft Bedrock add-on - Resource Pack",
+    "uuid": "2370316b-8f9f-47b1-b362-1c8b25c2ccd2",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f0355d23-e0b8-48b8-a052-9cfc7effacb4",
+      "version": [0, 1, 0]
+    }
+  ]
+}

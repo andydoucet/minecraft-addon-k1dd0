@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "k1dd0 Behavior Pack",
+    "description": "k1dd0 Minecraft Bedrock add-on - Behavior Pack",
+    "uuid": "b8fbc376-59fa-4525-a8ba-b47d9cf33c36",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7ff17bbe-0539-466e-a74b-d672177e8916",
+      "version": [0, 1, 0]
+    },
+    {
+      "type": "script",
+      "uuid": "e67a6e56-563b-4f63-bb09-97f243b61083",
+      "version": [0, 1, 0],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2370316b-8f9f-47b1-b362-1c8b25c2ccd2",
+      "version": [0, 1, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0-beta"
+    }
+  ]
+}
