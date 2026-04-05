@@ -1,3 +1,8 @@
-## k1dd0 Resource Pack Language File
-## Add custom item/entity display names here
-## Format: identifier=Display Name
+## Labubu Resource Pack Language File
+## Starter localization for the MVP placeholder content
+
+pack.name=Labubu Resource Pack
+pack.description=Placeholder visual support for the Labubu companion MVP
+entity.labooboo:companion.name=Labubu Companion
+item.labooboo:debug_whistle.name=Labubu Debug Whistle
+item.labooboo:pet_treat.name=Labubu Pet Treat

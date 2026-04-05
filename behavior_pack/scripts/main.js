@@ -1,20 +1,11 @@
-import { world, system } from "@minecraft/server";
-
-// k1dd0 Add-on - Entry Point
-// Add your custom game logic here
+import { world } from "@minecraft/server";
+import { ADDON_NAME, CHAT_PREFIXES, PRIMARY_CHAT_PREFIX } from "./config.js";
+import { registerChatCommands } from "./commands.js";
+import { registerCompanionLoop } from "./petState.js";
 
 world.afterEvents.worldInitialize.subscribe(() => {
-  console.log("[k1dd0] Add-on loaded!");
+  console.log(`[${ADDON_NAME}] MVP companion loop loaded. Primary command: ${PRIMARY_CHAT_PREFIX}. Aliases: ${CHAT_PREFIXES.join(", ")}`);
 });
 
-// Example: listen for chat commands
-world.beforeEvents.chatSend.subscribe((event) => {
-  const message = event.message;
-
-  if (message === "!k1dd0") {
-    event.cancel = true;
-    system.run(() => {
-      event.sender.sendMessage("k1dd0 add-on is running!");
-    });
-  }
-});
+registerChatCommands();
+registerCompanionLoop();

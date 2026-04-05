@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "labooboo:pet_treat",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "labooboo_pet_treat",
+      "minecraft:max_stack_size": 16,
+      "minecraft:display_name": {
+        "value": "Labubu Pet Treat"
+      }
+    }
+  }
+}

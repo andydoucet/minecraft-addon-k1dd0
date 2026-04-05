@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "labooboo:debug_whistle",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "labooboo_debug_whistle",
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "Labubu Debug Whistle"
+      }
+    }
+  }
+}

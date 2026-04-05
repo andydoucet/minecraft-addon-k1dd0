@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "labubu",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "labooboo_debug_whistle": {
+      "textures": "textures/items/labooboo_debug_whistle"
+    },
+    "labooboo_pet_treat": {
+      "textures": "textures/items/labooboo_pet_treat"
+    }
+  }
+}
